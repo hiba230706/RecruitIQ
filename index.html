@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>RecruitIQ - AI Resume Screener</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+<h1>RecruitIQ</h1>
+<p>AI Powered Resume Screening System</p>
+</header>
+
+<section class="upload-section">
+
+<h2>Upload Resumes</h2>
+
+<div class="upload-zone" id="uploadZone">
+Drag & Drop resumes here or click to upload
+<input type="file" id="fileInput" multiple hidden>
+</div>
+
+<div id="fileList"></div>
+
+<button id="analyzeBtn">Analyze Resumes</button>
+
+</section>
+
+<section>
+
+<h2>Candidate Results</h2>
+
+<div class="table-wrap">
+<table id="resultsTable">
+<thead>
+<tr>
+<th>Name</th>
+<th>Skills</th>
+<th>Experience</th>
+<th>Match Score</th>
+</tr>
+</thead>
+
+<tbody>
+</tbody>
+
+</table>
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>`
